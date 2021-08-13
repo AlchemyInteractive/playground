@@ -11,7 +11,7 @@ services:
             - mongo
         environment:
             - NODE_ENV=development
-            - API_HOST=https://xulu-linux-3000.devops.xclydes.cloud
+            - API_HOST=http://localhost:3000
     mongo:
         image: mongo:4.0
         ports:

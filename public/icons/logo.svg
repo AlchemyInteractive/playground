@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46.188" height="61.47" viewBox="0 0 46.188 61.47">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #363636;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill-opacity: 0;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="logo_copy" data-name="logo copy" class="cls-1">
+    <path id="Fill_1" data-name="Fill 1" class="cls-2" d="M137.2,7875.9h11.463v-27.51H137.2v27.51Z" transform="translate(-120 -7814.44)"/>
+    <g>
+      <g>
+        <path id="Clip_3" data-name="Clip 3" class="cls-3" d="M120,7814.44h14.978v54.58H120v-54.58Z" transform="translate(-120 -7814.44)"/>
+        <g id="Mask_by_Clip_3" data-name="Mask by Clip 3">
+          <path id="Fill_2" data-name="Fill 2" class="cls-2" d="M134.978,7819.79v-5.35A20.368,20.368,0,0,0,120,7833.85a20.978,20.978,0,0,0,9,16.87v18.3h5.983v-21.11a11.775,11.775,0,0,1-5.407-3.37,14.929,14.929,0,0,1-4.361-10.69,14.755,14.755,0,0,1,9.768-14.06" transform="translate(-120 -7814.44)"/>
+        </g>
+      </g>
+      <g>
+        <path id="Clip_6" data-name="Clip 6" class="cls-3" d="M151.214,7814.44h14.977v54.58H151.214v-54.58Z" transform="translate(-120 -7814.44)"/>
+        <g id="Mask_by_Clip_6" data-name="Mask by Clip 6">
+          <path id="Fill_5" data-name="Fill 5" class="cls-2" d="M151.214,7819.79v-5.35a20.368,20.368,0,0,1,14.977,19.41,20.974,20.974,0,0,1-9,16.87v18.3h-5.981v-21.11a12.5,12.5,0,0,0,5.607-3.37,15.165,15.165,0,0,0-5.607-24.75" transform="translate(-120 -7814.44)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

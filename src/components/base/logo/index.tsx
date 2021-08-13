@@ -4,9 +4,9 @@ import Image from "next/image";
 export const Logo: React.FC = () => {
     return (
         <Image
-            src="/icons/nextjs-icon.svg"
-            alt="nextjs"
-            width="96"
+            src="/icons/logo.svg"
+            alt="wildebeest logo"
+            width="50"
             height="58"
         />
     );

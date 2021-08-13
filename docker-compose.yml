@@ -1,0 +1,20 @@
+version: "3"
+services:
+    server:
+        build: server
+        command: sh -c 'nodemon --config nodemon.json .'
+        volumes:
+            - "./src:/src"
+        ports:
+            - 3000:3000
+        depends_on:
+            - mongo
+        environment:
+            - NODE_ENV=development
+            - API_HOST=https://xulu-linux-3000.devops.xclydes.cloud
+    mongo:
+        image: mongo:4.0
+        ports:
+            - 27017:27017
+        volumes:
+            - ./tmp/db:/data/db
